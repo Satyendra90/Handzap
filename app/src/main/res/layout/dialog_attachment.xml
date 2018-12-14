@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtCaptureImage"
+        style="@style/BottomSheetDialog"
+        android:drawableLeft="@drawable/ic_photo_camera"
+        android:text="@string/capture_image"/>
+
+    <TextView
+        android:id="@+id/txtCaptureVideo"
+        style="@style/BottomSheetDialog"
+        android:drawableLeft="@drawable/ic_photo_camera"
+        android:text="@string/capture_video"/>
+
+    <TextView
+        android:id="@+id/txtPhotoVideo"
+        style="@style/BottomSheetDialog"
+        android:drawableLeft="@drawable/ic_photo"
+        android:text="@string/photo_video_library"/>
+
+    <TextView
+        android:id="@+id/txtDocument"
+        style="@style/BottomSheetDialog"
+        android:drawableLeft="@drawable/ic_document"
+        android:text="@string/document"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+</LinearLayout>

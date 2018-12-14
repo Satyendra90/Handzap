@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_row_height">
+
+        <ImageView
+            android:id="@+id/imgCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/india_gate"/>
+
+        <TextView
+            android:id="@+id/txtCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Flooring"
+            android:background="#88000000"
+            android:gravity="center"
+            android:layout_alignBottom="@id/imgCategory"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtCheckedCategory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_row_height"
+        android:background="@color/light_green"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:text="C 001"
+        android:textSize="@dimen/post_field_txt_size"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#276c83</color>
+    <color name="colorPrimaryDark">#224a66</color>
+    <color name="colorAccent">#276c83</color>
+    <color name="colorHint">#c9c9ce</color>
+    <color name="colorFloatingLabel">#276c83</color>
+    <color name="light_green">#d3f4ff</color>
+    <color name="prediction_color">#676767</color>
+    <color name="bs_color">#676767</color>
+</resources>

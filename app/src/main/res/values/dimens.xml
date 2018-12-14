@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="margin_post_field_top">15dp</dimen>
+    <dimen name="post_field_txt_size">15dp</dimen>
+    <dimen name="margin_grid">1dp</dimen>
+    <dimen name="selected_count_size">18sp</dimen>
+    <dimen name="category_row_height">150dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="attachment_size">80dp</dimen>
+</resources>

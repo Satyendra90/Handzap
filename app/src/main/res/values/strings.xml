@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">HandzapAssignment</string>
+
+    <!--New Post-->
+    <string name="post_title">Post Title</string>
+    <string name="job_term">Job Term</string>
+    <string name="start_date">Start Date</string>
+    <string name="post_location">Post Location</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="rate">Rate</string>
+    <string name="inr">INR</string>
+    <string name="budget">Budget</string>
+    <string name="select_post_categories">Select Post Categories</string>
+    <string name="describe_your_post">Describe your post</string>
+    <integer name="post_title_max_length">50</integer>
+    <integer name="post_description_max_length">400</integer>
+    <string name="character_left">%1$d characters left</string>
+    <string name="enter_post_title">Enter Post Title</string>
+    <string name="post_description">Post Description</string>
+    <string name="post_categories">Post Categories</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+
+    <!--Selected category-->
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="new_post">New Post</string>
+    <string name="post">Post</string>
+
+    <string name="selected_category">%1$d selected</string>
+    <string name="maximum_selected_category">Maximum %1$d Categories</string>
+    <string name="no_of_selected_category">%1$d categories selected</string>
+
+    <string-array name="rate">
+        <item>No Preference</item>
+        <item>Fixed Budget</item>
+        <item>Hourly Rate</item>
+    </string-array>
+
+    <string-array name="payment_method">
+        <item>No Preference</item>
+        <item>E-Payment</item>
+        <item>Cash</item>
+    </string-array>
+
+    <string-array name="job_term">
+        <item>Recurring Job</item>
+        <item>Same Day Job</item>
+        <item>Multi Days Job</item>
+    </string-array>
+    <string name="title_activity_search_location">SearchLocationActivity</string>
+    <string name="search_location">Enter location</string>
+    <string name="set_location_map">Set Location Map</string>
+    <string name="post_attachments">Post Attachments</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="document">Document</string>
+    <string name="photo_video_library"><![CDATA[Photo & Video Library]]></string>
+    <string name="capture_video">Capture Video</string>
+
+</resources>
